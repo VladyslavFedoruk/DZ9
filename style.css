@@ -1,0 +1,266 @@
+nav{
+max-width: 1200px;
+max-height: 80px;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+.categories{
+float: right;
+}
+
+.logo{
+margin-left: 120px;
+margin-right: 200px;
+}
+
+.menu {
+display: flex;
+justify-content:center;
+ margin-right: 280px;
+}
+
+.menu li{
+padding-right: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #2F281E;
+
+}
+
+.menu li:hover{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FF9900;
+    padding-right: 20px;
+    box-sizing:border-box;
+}
+
+#sign-in{
+width: 110px;
+height: 46px;
+left: 1090px;
+top: 0px;
+background: #ffffff;
+border-radius: 4px;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+border: #363232;
+}
+
+#sign-in:hover{
+    background: rgb(0, 0, 0);
+    border: #000000;
+    color: #FFFFFF;
+}
+
+
+#sign-up{
+    margin-right: 120px;
+    margin-left: 20px;
+    width: 110px;
+height: 46px;
+left: 1090px;
+top: 0px;
+background: #FF9900;
+border-radius: 4px;
+border: none;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+
+#sign-up:hover{
+    background: rgb(209, 150, 82);
+    border: #ce8e2f;
+    color: #FFFFFF;
+}
+
+h1{
+    margin-top: 191px;
+    max-width: 550px;
+    font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+color: #2F281E;
+margin-left: 120px;
+margin-bottom: 30px;
+}
+
+p{
+    max-width: 500px;
+    margin-left: 120px;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #544837;
+margin-bottom: 20px;
+}
+
+.get-started{
+    width: 180px;
+    height: 50px;
+    left: 0px;
+    top: 348px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-left: 120px;
+border: none;
+margin-bottom: 150px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;   
+   }
+
+   /* body{
+       padding-top: 100px;
+       overflow-x: hidden;
+   } */
+
+.menu-buttons{
+    margin-top: 17px;
+    position:absolute;
+    top: 0px;
+    right:0px
+}
+
+.get-started:hover{
+    background: rgb(209, 150, 82);
+    border: #ce8e2f;
+    color: #FFFFFF;
+}
+
+.stydents{
+    margin-right: 120px;
+    position:absolute;
+    top: 166px;
+    right:0px;
+}
+
+.container{
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.card-list li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h2{
+    font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #2F281E;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto 40px;
+    text-align: center;
+    /* padding:  0 100px; */
+}
+
+.card-list-item{
+    border: 1px solid rgb(105, 56, 56);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    grid-gap: 40px;
+    margin-bottom: 70px;
+}
+.card-list-item img{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.section-tools{
+    position: relative;
+    padding-bottom: 75px;
+}
+
+.section-tools .container{
+    position:relative;
+    z-index: 1;
+}
+.section-tools::after{
+    transform: translateX(-50%);
+    background: url(images/bg.png) center no-repeat;
+    position: absolute;
+    content: '';
+    width: 2210px;
+    height: 390px;
+    /* background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+    transform: rotate(180deg); */
+    bottom: 0; 
+    left: 50%;
+    background-size: 100%
+
+}
+
+.card-list li:hover{
+    animation-name: hide-ul;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.card-list ul:hover li {
+ opacity: 0.6;
+}
+
+.card-list ul:hover li:hover {
+    opacity: 2;
+}
+
+.section{
+    margin: 100px 0;
+}
+
+.section2-sign-up{
+margin: 0 auto;
+display: block;
+background: #FF9900;
+border-radius: 4px;
+width: 180px;
+height: 50px;
+color: #FFFFFF;
+border: none;
+font:700 16px / 24px sans-serif 'Arial' bold ;
+cursor: pointer;
+transition: .2s all ;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 74px;
+}
+
+.section2-sign-up:hover{
+    border:2px solid yellowgreen;
+    background-color: yellowgreen;
+    color: #444;
+}
